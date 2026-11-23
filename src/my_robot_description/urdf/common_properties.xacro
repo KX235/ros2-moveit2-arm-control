@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <xacro:property name="base_h"  value="0.06"/>
+  <xacro:property name="base_r"  value="0.10"/>
+  <xacro:property name="l1"      value="0.30"/>
+  <xacro:property name="l2"      value="0.25"/>
+  <xacro:property name="l3"      value="0.20"/>
+  <xacro:property name="l4"      value="0.12"/>
+  <xacro:property name="l5"      value="0.08"/>
+  <xacro:property name="l6"      value="0.05"/>
+
+  <xacro:property name="gripper_plate_x"  value="0.20"/>
+  <xacro:property name="gripper_plate_y"  value="0.06"/>
+  <xacro:property name="gripper_plate_z"  value="0.02"/>
+  <xacro:property name="gripper_finger_x" value="0.02"/>
+  <xacro:property name="gripper_finger_y" value="0.06"/>
+  <xacro:property name="gripper_finger_z" value="0.08"/>
+  <xacro:property name="gripper_stroke"   value="0.06"/>
+
+  <material name="grey"><color rgba="0.6 0.6 0.6 1"/></material>
+  <material name="orange"><color rgba="1 0.4 0.1 1"/></material>
+  <material name="dark_green"><color rgba="0.1 0.45 0.2 1"/></material>
+  <material name="light_green"><color rgba="0.4 0.8 0.5 1"/></material>
+
+</robot>
